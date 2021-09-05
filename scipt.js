@@ -7,4 +7,11 @@ $(document).ready(function(){
             $('.navbar').removeClass("sticky");
         }
      });
+
+    //  toggle menubar/navbar script
+
+    $('.menu-btn').click(function(){
+        $('.navbar .menu').toggleClass("active");
+        $('.menu-btn i').toggleClass("active");
+    });
 });
